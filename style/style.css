@@ -112,3 +112,102 @@
     height: 380px;
     padding-right: 100px;
 }
+/* sections 3 end */
+/* secitons 4 starting */
+.joining-time-place{
+    height: 482px;
+    border-radius: 15px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0 120px 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(7, 2, 17);
+}
+.joining-time-place h3 span{
+    color: red;
+}
+.joining-time-place button{
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    margin-top: 40px;
+
+}
+/* section 4 end */
+/* Sections 5 starting */
+.new-best-offer{
+    height: 463px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.div-1{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+}
+.div-2{
+    width: 34%;
+}
+.div-3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-1 h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+}
+.div-1 h2{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
+.div-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+.div-2 img{
+    width: 364.84px;
+    height: 364.84px;
+}
+.div-2{
+    width: 480px;
+    height: 400px;
+    border: 10px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-3 h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+.div-3 img{
+    width: 30%;
+    margin-top: 50px;
+}
+.div-3 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+/* section 5 end */
