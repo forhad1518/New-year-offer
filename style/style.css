@@ -313,13 +313,49 @@
 .subscribe-newsletter{
     background-color: rgba(255, 0, 0, 0.05);
     max-width: 1080px;
-    height: 500px;
+    height: 550px;
     margin: 120px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
+.subscribe-newsletter .div-2 img{
+    width: 115px;
+    height: 50px;
+}
 .subscribe-newsletter .div-1{
     padding: 80px 150px;
 }
+.subscribe-newsletter .div-1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
+.subscribe-newsletter .div-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+.subscribe-newsletter .div-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.subscribe-newsletter .div-2 input{
+    border: none;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+}
+.subscribe-newsletter .div-2 button{
+    border: none;
+    padding: 15px;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 /* section 8 is end */
